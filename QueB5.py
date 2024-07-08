@@ -9,9 +9,3 @@ def contains_duplicate(nums):
         seen.add(num)
     return False
 
-input_nums = input("Enter numbers separated by spaces: ").split()
-nums = list(map(int, input_nums))
-if contains_duplicate(nums):
-    print("True.")
-else:
-    print("False.")
